@@ -1,5 +1,8 @@
 package net.cramnoy.omgmod;
 
+import net.cramnoy.omgmod.block.ModBlocks;
+import net.cramnoy.omgmod.creativemodtab.ModCreativeModeTabs;
+import net.cramnoy.omgmod.items.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,6 +35,11 @@ public class omgmod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register((modEventBus));
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         NeoForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
@@ -47,7 +55,20 @@ public class omgmod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.AZURITE);
+            event.accept(ModItems.RAW_AZURITE);
+        }
 
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.AZURITE_BLOCK);
+            event.accept(ModBlocks.RAW_AZURITE_BLOCK);
+            event.accept(ModBlocks.AZURITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_AZURITE_ORE);
+            event.accept(ModBlocks.AZURITE_NETHER_ORE);
+            event.accept(ModBlocks.AZURITE_END_ORE);
+
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

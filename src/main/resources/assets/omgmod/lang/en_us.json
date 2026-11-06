@@ -1,13 +1,14 @@
 {
-  "itemGroup.omgmod": "Example Mod Tab",
-  "block.omgmod.example_block": "Example Block",
-  "item.omgmod.example_item": "Example Item",
+  "item.omgmod.azurite": "Azurite",
+  "item.omgmod.raw_azurite": "Raw Azurite",
 
-  "omgmod.configuration.title": "omg mod Configs",
-  "omgmod.configuration.section.omgmod.common.toml": "omg mod Configs",
-  "omgmod.configuration.section.omgmod.common.toml.title": "omg mod Configs",
-  "omgmod.configuration.items": "Item List",
-  "omgmod.configuration.logDirtBlock": "Log Dirt Block",
-  "omgmod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "omgmod.configuration.magicNumber": "Magic Number"
+  "block.omgmod.azurite_block": "Block of Azurite",
+  "block.omgmod.raw_azurite_block": "Raw Block of Azurite",
+  "block.omgmod.azurite_ore": "Azurite Ore",
+  "block.omgmod.deepslate_azurite_ore": "Deepslate Azurite Ore",
+  "block.omgmod.nether_azurite_ore": "Azurite Nether Ore",
+  "block.omgmod.end_azurite_ore": "Azurite End Ore",
+
+  "creativetab.omgmod.azurite_items": "Azurite Items",
+  "creativetab.omgmod.azurite_blocks": "Azurite Blocks"
 }
