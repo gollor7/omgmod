@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silver",
+  "key": {
+    "I": "omgmod:silver_ingot"
+  },
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "result": {
+    "id": "omgmod:silver_block"
+  }
+}

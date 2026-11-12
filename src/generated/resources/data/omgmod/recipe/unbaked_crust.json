@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wheat",
+  "key": {
+    "E": "minecraft:egg",
+    "M": "minecraft:milk_bucket",
+    "S": "minecraft:sugar",
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    "SWS",
+    "WMW",
+    "EWE"
+  ],
+  "result": {
+    "count": 3,
+    "id": "omgmod:unbaked_crust"
+  }
+}

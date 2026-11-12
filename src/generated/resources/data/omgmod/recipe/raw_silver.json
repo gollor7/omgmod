@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "silver",
+  "ingredients": [
+    "omgmod:raw_silver_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "omgmod:raw_silver"
+  }
+}

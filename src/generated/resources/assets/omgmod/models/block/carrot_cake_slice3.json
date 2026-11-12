@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake_slice3",
+  "textures": {
+    "bottom": "omgmod:block/carrot_cake_bottom",
+    "inside": "omgmod:block/carrot_cake_inner",
+    "particle": "omgmod:block/carrot_cake_side",
+    "side": "omgmod:block/carrot_cake_side",
+    "top": "omgmod:block/carrot_cake_top"
+  }
+}

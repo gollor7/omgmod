@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "carrot",
+  "key": {
+    "C": "omgmod:crust",
+    "M": "minecraft:milk_bucket",
+    "R": "minecraft:carrot",
+    "S": "minecraft:sugar"
+  },
+  "pattern": [
+    "SCS",
+    "RCR",
+    "MCS"
+  ],
+  "result": {
+    "id": "omgmod:carrot_cake"
+  }
+}
