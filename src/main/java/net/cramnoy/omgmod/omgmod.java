@@ -56,17 +56,17 @@ public class omgmod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.AZURITE);
-            event.accept(ModItems.RAW_AZURITE);
+            event.accept(ModItems.SILVER_INGOT);
+            event.accept(ModItems.RAW_SILVER);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.AZURITE_BLOCK);
-            event.accept(ModBlocks.RAW_AZURITE_BLOCK);
-            event.accept(ModBlocks.AZURITE_ORE);
-            event.accept(ModBlocks.DEEPSLATE_AZURITE_ORE);
-            event.accept(ModBlocks.AZURITE_NETHER_ORE);
-            event.accept(ModBlocks.AZURITE_END_ORE);
+            event.accept(ModBlocks.SILVER_BLOCK);
+            event.accept(ModBlocks.RAW_SILVER_BLOCK);
+            event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
+            event.accept(ModBlocks.NETHER_SILVER_ORE);
+            event.accept(ModBlocks.END_SILVER_ORE);
 
         }
     }

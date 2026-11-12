@@ -18,29 +18,47 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, omgmod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> AZURITE_ITEMS_TAB = CREATIVE_MODE_TABS.register("azurite_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AZURITE.get()))
-                    .title(Component.translatable("creativetab.omgmod.azurite_items"))
+    public static final Supplier<CreativeModeTab> SILVER_ITEMS_TAB = CREATIVE_MODE_TABS.register("silver_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SILVER_INGOT.get()))
+                    .title(Component.translatable("creativetab.omgmod.silver_items"))
                     .withTabsBefore(CreativeModeTabs.INGREDIENTS)
-                    .withTabsAfter(Identifier.fromNamespaceAndPath(omgmod.MOD_ID, "azurite_blocks_tab"))
+                    .withTabsAfter(Identifier.fromNamespaceAndPath(omgmod.MOD_ID, "silver_blocks_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.AZURITE);
-                        output.accept(ModItems.RAW_AZURITE);
+                        output.accept(ModItems.SILVER_INGOT);
+                        output.accept(ModItems.RAW_SILVER);
+                        output.accept(ModItems.SILVER_NUGGET);
+
+                        output.accept(ModItems.METAL_DETECTOR);
 
 
                     }).build());
 
 
-    public static final Supplier<CreativeModeTab> AZURITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("azurite_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AZURITE_BLOCK.get()))
-                    .title(Component.translatable("creativetab.omgmod.azurite_blocks"))
+    public static final Supplier<CreativeModeTab> SILVER_BLOCKS_TAB = CREATIVE_MODE_TABS.register("silver_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SILVER_BLOCK.get()))
+                    .title(Component.translatable("creativetab.omgmod.silver_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.AZURITE_BLOCK);
-                        output.accept(ModBlocks.RAW_AZURITE_BLOCK);
-                        output.accept(ModBlocks.AZURITE_ORE);
-                        output.accept(ModBlocks.DEEPSLATE_AZURITE_ORE);
-                        output.accept(ModBlocks.AZURITE_NETHER_ORE);
-                        output.accept(ModBlocks.AZURITE_END_ORE);
+                        output.accept(ModBlocks.SILVER_BLOCK);
+                        output.accept(ModBlocks.RAW_SILVER_BLOCK);
+                        output.accept(ModBlocks.SILVER_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        output.accept(ModBlocks.NETHER_SILVER_ORE);
+                        output.accept(ModBlocks.END_SILVER_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> CUSTOM_FOOD = CREATIVE_MODE_TABS.register("custom_food_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ONION.get()))
+                    .title(Component.translatable("creativetab.omgmod.custom_food"))
+                    .withTabsAfter(CreativeModeTabs.FOOD_AND_DRINKS)
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.ONION);
+                        output.accept(ModItems.ONION_PIE);
+                        output.accept(ModBlocks.CARROT_CAKE);
+                        output.accept(ModItems.CRUST);
+                        output.accept(ModItems.UNBAKED_CRUST);
 
 
                     }).build());

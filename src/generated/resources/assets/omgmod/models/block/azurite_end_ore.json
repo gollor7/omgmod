@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "omgmod:block/azurite_end_ore"
-  }
-}

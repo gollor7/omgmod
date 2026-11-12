@@ -1,14 +1,56 @@
 {
-  "item.omgmod.azurite": "Azurite",
-  "item.omgmod.raw_azurite": "Raw Azurite",
+  "item.omgmod.silver_ingot": "Silver Ingot",
+  "item.omgmod.raw_silver": "Raw Silver",
+  "item.omgmod.silver_nugget": "Silver Nugget",
 
-  "block.omgmod.azurite_block": "Block of Azurite",
-  "block.omgmod.raw_azurite_block": "Raw Block of Azurite",
-  "block.omgmod.azurite_ore": "Azurite Ore",
-  "block.omgmod.deepslate_azurite_ore": "Deepslate Azurite Ore",
-  "block.omgmod.nether_azurite_ore": "Azurite Nether Ore",
-  "block.omgmod.end_azurite_ore": "Azurite End Ore",
+  "item.omgmod.onion": "Onion",
+  "tooltip.omgmod.onion": "Press §f§l§oShift§r§r§r for more information",
+  "tooltip.omgmod.onion.shift_down_1": "Nutrition: 1",
+  "tooltip.omgmod.onion.shift_down_2": "Saturation: 0.4",
+  "tooltip.omgmod.onion.shift_down_3": "§2Effect: Nausea 1",
+  "tooltip.omgmod.onion.shift_down_4": "Time: 20",
+  "tooltip.omgmod.onion.shift_down_5": "Probability: 10%",
 
-  "creativetab.omgmod.azurite_items": "Azurite Items",
-  "creativetab.omgmod.azurite_blocks": "Azurite Blocks"
+  "item.omgmod.onion_pie": "Onion Pie",
+  "tooltip.omgmod.onion_pie": "Press §f§l§oShift§r§r§r for more information",
+  "tooltip.omgmod.onion_pie.shift_down_1": "Nutrition: 10",
+  "tooltip.omgmod.onion_pie.shift_down_2": "Saturation: 12",
+  "tooltip.omgmod.onion_pie.shift_down_3": "§4Effect: Health Boost 1",
+  "tooltip.omgmod.onion_pie.shift_down_4": "Time: 100",
+
+  "item.omgmod.unbaked_crust": "Unbaked Crust",
+  "item.omgmod.crust": "Crust",
+  "tooltip.omgmod.crust": "Press §f§l§oShift§r§r§r for more information",
+  "tooltip.omgmod.crust.shift_down_1": "Nutrition: 2",
+  "tooltip.omgmod.crust.shift_down_2": "Saturation: 1.2",
+
+  "block.omgmod.carrot_cake": "Carrot Cake",
+  "tooltip.omgmod.carrot_cake": "Press §f§l§oShift§r§r§r for more information",
+  "tooltip.omgmod.carrot_cake.shift_down_1": "Each slice:",
+  "tooltip.omgmod.carrot_cake.shift_down_2": "Nutrition: 3",
+  "tooltip.omgmod.carrot_cake.shift_down_3": "Saturation: 2.4",
+  "tooltip.omgmod.carrot_cake.shift_down_4": "§9Effect: Speed 1",
+  "tooltip.omgmod.carrot_cake.shift_down_5": "Time: 50",
+
+
+  "block.omgmod.silver_block": "Block of Silver",
+  "block.omgmod.raw_silver_block": "Block of Raw Silver",
+  "block.omgmod.silver_ore": "Silver Ore",
+  "block.omgmod.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.omgmod.nether_silver_ore": "Nether Silver Ore",
+  "block.omgmod.end_silver_ore": "End Silver Ore",
+
+  "creativetab.omgmod.silver_items": "Silver Items",
+  "creativetab.omgmod.silver_blocks": "Silver Blocks",
+  "creativetab.omgmod.magic_block": "Magic Block",
+
+  "item.omgmod.metal_detector.no_valuebles": "No Valuables found",
+  "item.omgmod.metal_detector": "Metal Detector",
+
+  "creativetab.omgmod.custom_food": "Custom Food",
+
+  "tooltip.omgmod.magic_block.tooltip": "§9Diaaaamonds",
+
+  "tooltip.omgmod.metal_detector.shift_down": "Discover valuables by clicking on block",
+  "tooltip.omgmod.metal_detector": "Press §f§l§oShift§r§r§r for more information"
 }
